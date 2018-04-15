@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/debugging_helpers.cpp
+iostream
+-
+vector
+-
+
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/helpers.cpp
+vector
+-
+iostream
+-
+cmath
+-
+string
+-
+fstream
+-
+
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/localizer.cpp
+helpers.cpp
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/helpers.cpp
+stdlib.h
+-
+debugging_helpers.cpp
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/debugging_helpers.cpp
+
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/simulate.cpp
+localizer.cpp
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/localizer.cpp
+algorithm
+-
+
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/tests.cpp
+iostream
+-
+simulate.cpp
+/Users/zhirui/Dropbox/Udacity-Car/udacity_cpp_histogram_filter_project/simulate.cpp
+
